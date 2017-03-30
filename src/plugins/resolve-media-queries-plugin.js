@@ -137,6 +137,7 @@ export default function resolveMediaQueries(
     isNestedStyle,
     style,
     userAgent: config.userAgent,
+    props
   });
 
   const newProps = mediaQueryClassNames
